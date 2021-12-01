@@ -1,0 +1,13 @@
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit-core"]
+
+[project]
+dependencies = [
+    "alibabacloud_ecs20140526",
+    "alibabacloud_rds20140815",
+    "alibabacloud_tea_openapi",
+    "alibabacloud_waf_openapi20190910",
+]
+dynamic = ["description", "version"]
+name = "sacc"
