@@ -1,3 +1,4 @@
+# Copyright 2021 Symowl
 # SPDX-License-Identifier: Apache-2.0
 
 from .ecs import ECS
@@ -12,6 +13,6 @@ class Private(ECS, RDS):
         region_id: str,
         endpoint: str,
         user_agent: str
-    ):
+    ) -> None:
         ECS.__init__(self, ak, secret, region_id, endpoint, user_agent)
         RDS.__init__(self, ak, secret, region_id, endpoint, user_agent)

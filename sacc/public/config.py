@@ -1,3 +1,4 @@
+# Copyright 2021 Symowl
 # SPDX-License-Identifier: Apache-2.0
 
 from alibabacloud_tea_openapi import models

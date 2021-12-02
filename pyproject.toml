@@ -8,6 +8,7 @@ dependencies = [
     "alibabacloud_rds20140815",
     "alibabacloud_tea_openapi",
     "alibabacloud_waf_openapi20190910",
+    "aliyunsdkasapi @ git+https://gitee.com/symowl/alibaba-cloud-apsara-stack-sdk.git@v2.4.7"
 ]
 dynamic = ["description", "version"]
 name = "sacc"

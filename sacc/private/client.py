@@ -1,3 +1,4 @@
+# Copyright 2021 Symowl
 # SPDX-License-Identifier: Apache-2.0
 
 from aliyunsdkasapi.AsapiRequest import AsapiRequest
@@ -14,7 +15,7 @@ class Client:
         region_id: str,
         endpoint: str,
         user_agent: str
-    ):
+    ) -> None:
         self.client = AcsClient(ak, secret, region_id)
         self.endpoint = endpoint
         self.user_agent = user_agent

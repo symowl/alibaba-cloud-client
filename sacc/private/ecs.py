@@ -1,6 +1,8 @@
+# Copyright 2021 Symowl
 # SPDX-License-Identifier: Apache-2.0
 
 import json
+from typing import Dict, List
 
 from .client import Client
 
@@ -19,7 +21,7 @@ class ECS(Client):
     ):
         super().__init__(ak, secret, region_id, endpoint, user_agent)
 
-    def get_ecs_instance_status(self, instance_ids: list[str] = None) -> list[dict[str, str]]:
+    def get_ecs_instance_status(self, instance_ids: List[str] = None) -> List[Dict[str, str]]:
         req = self.request(
             self.__PRODUCT,
             self.__VERSION,
@@ -49,7 +51,7 @@ class ECS(Client):
 
         return status
 
-    def get_ecs_instances(self, instance_ids: list[str] = None) -> list[dict[str, str]]:
+    def get_ecs_instances(self, instance_ids: List[str] = None) -> List[Dict[str, str]]:
         req = self.request(
             self.__PRODUCT,
             self.__VERSION,
