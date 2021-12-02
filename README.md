@@ -1,5 +1,7 @@
 # Symowl Alibaba Cloud Client
 
+- Package name: `sacc`
+
 ## Install this package
 
 ``` sh
