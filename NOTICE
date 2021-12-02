@@ -1,7 +1,7 @@
 Symowl Alibaba Cloud Client
 Copyright 2021 Symowl
 
-This product depends on the following packages under the Apache License 2.0.
+This product depends on the following packages under the Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0).
 - Alibaba Cloud Apsara Stack SDK (https://help.aliyun.com/apsara/enterprise.html)
 - Alibaba Cloud Ecs SDK for Python (https://github.com/aliyun/alibabacloud-python-sdk/tree/master/ecs-20140526)
 - Alibaba Cloud OpenApi SDK for Python (https://github.com/aliyun/darabonba-openapi/tree/master/python)
