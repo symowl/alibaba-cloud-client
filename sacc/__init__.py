@@ -1,6 +1,6 @@
 """Symowl Alibaba Cloud Client
-Copyright 2021 Symowl
-SPDX-License-Identifier: Apache-2.0
+Copyright (c) 2021 Symowl
+SPDX-License-Identifier: MIT
 """
 
 __version__ = "1.1.0"
