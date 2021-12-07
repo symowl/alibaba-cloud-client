@@ -12,3 +12,6 @@ dependencies = [
 ]
 dynamic = ["description", "version"]
 name = "sacc"
+
+[project.sdist]
+include = ["NOTICE"]

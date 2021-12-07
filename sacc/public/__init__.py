@@ -1,5 +1,5 @@
-# Copyright (c) 2021 Symowl
-# SPDX-License-Identifier: MIT
+# Copyright 2021 Symowl
+# SPDX-License-Identifier: Apache-2.0
 
 from .ecs import ECS, models
 from .rds import RDS

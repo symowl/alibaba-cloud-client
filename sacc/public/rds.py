@@ -1,5 +1,5 @@
-# Copyright (c) 2021 Symowl
-# SPDX-License-Identifier: MIT
+# Copyright 2021 Symowl
+# SPDX-License-Identifier: Apache-2.0
 
 from alibabacloud_rds20140815 import client, models
 
